@@ -21,7 +21,7 @@ const accordionContentArray = [
 
 export default function AccordionContent() {
   return (
-    <div className="w-1/2 flex flex-col gap-4">
+    <div className="w-full flex flex-col gap-4 lg:w-1/2">
       <h3 className="text-4xl text-typo">Visualize your ideas with us</h3>
       <p className="text-lg text-typo">
         We are ready to help you build and also realize the room design that you

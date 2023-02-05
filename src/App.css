@@ -8,3 +8,43 @@
 .reset-default {
   all: unset;
 }
+
+.bg-quotation {
+  background: linear-gradient(279.85deg, #FFFFFF 0%, #FAF5F2 100%)
+}
+
+.bg-footer {
+  background: linear-gradient(275.58deg, #000000 0%, #4B4B4B 100%);
+}
+
+.bg-card {
+  background: rgba(255, 255, 255, 0.2)
+}
+
+
+.header-swiper .swiper-pagination {
+  bottom: 30px;
+}
+
+.header-swiper .swiper-pagination-bullet,
+.quotation-swiper .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: #FADCD9;
+  opacity: 1;
+}
+
+.header-swiper .swiper-pagination-bullet-active,
+.quotation-swiper .swiper-pagination-bullet-active {
+  background-color: #F79489;
+}
+
+.quotation-swiper {
+
+}
+
+.quotation-swiper .swiper-pagination {
+  position: absolute;
+  bottom: 0;
+  z-index: 50;
+}

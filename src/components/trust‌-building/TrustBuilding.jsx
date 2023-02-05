@@ -32,7 +32,7 @@ export default function TrustBuilding() {
   return (
     <div className="container mx-auto flex flex-col gap-4 py-20">
       <h4 className="text-4xl text-typo">Why Choosing Us</h4>
-      <div className="flex gap-4">
+      <div className="grid xl:grid-cols-4 lg:grid-cols-2 sm:grid-cols-1 gap-4 ">
         {cardsArray.map((card) => (
           <CardComp card={card} />
         ))}
