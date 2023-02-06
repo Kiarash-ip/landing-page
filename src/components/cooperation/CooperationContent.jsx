@@ -2,7 +2,7 @@ import React from "react";
 
 export default function CooperationContent() {
   return (
-    <div className="w-1/2 flex flex-col gap-10 py-5 px-10 items-start">
+    <div className="md:w-1/2 w-full flex flex-col gap-10 py-5 md:px-10 items-start">
       <h3 className="text-typo text-4xl">Make your room feel homey</h3>
       <p className="text-lg text-typo font-light">
         We help people not only to make the room at home better, but we help

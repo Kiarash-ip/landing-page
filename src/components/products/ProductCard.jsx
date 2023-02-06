@@ -4,7 +4,7 @@ export default function ProductCard({
   card: { title, category, image, price, stars },
 }) {
   return (
-    <div className="min-w-[250px] max-w-[350px]">
+    <div className="min-w-[150px] w-full max-w-[350px]">
       <img src={`/images/image-${image}.png`} className="w-[100%]" />
       <div className="flex flex-col p-6 gap-4">
         <h5 className="text-lg text-typo">{title}</h5>

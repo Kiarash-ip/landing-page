@@ -82,8 +82,11 @@ const footerItemsArray = [
 export default function FooterSection() {
   return (
     <div className="bg-footer">
-      <div className="container mx-auto flex justify-between py-20 items-start">
-        <img src="/images/logo.svg" className="w-[200px]" />
+      <div className="container mx-auto flex md:flex-row flex-col md:justify-between md:gap-0 gap-14 md:py-20 py-10 items-start px-4">
+        <img
+          src="/images/logo.svg"
+          className="max-w-[200px] min-w-[150px] w-3/12"
+        />
         {footerItemsArray.map((item) => {
           return (
             <div key={item.id} className="flex flex-col gap-5">

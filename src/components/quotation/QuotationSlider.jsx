@@ -3,8 +3,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import QuotationTemplate from "./QuotationTemplate";
 import "swiper/css/pagination";
-import SwiperCore, { Pagination } from "swiper";
-SwiperCore.use([Pagination]);
+import SwiperCore, { Autoplay, Pagination } from "swiper";
+SwiperCore.use([Pagination, Autoplay]);
 
 const quotationArray = [
   [
@@ -57,10 +57,11 @@ const quotationArray = [
 
 export default function QuotationSlider() {
   return (
-    <div className="container my-20 relative h-[350px]">
+    <div className="container my-20 relative md:h-[350px] h-[unset]">
       <Swiper
         modules={[Pagination]}
         pagination={{ clickable: true }}
+        autoplay={{ delay: 3000 }}
         className="quotation-swiper h-full"
         spaceBetween={0}
         slidesPerView={1}
