@@ -2,10 +2,13 @@ import React from "react";
 
 export default function QuotationTemplate({ part }) {
   return (
-    <div className="flex md:flex-row justify-center items-start flex-col gap-14">
+    <div className="grid md:grid-cols-3 md:gap-6 gap-16 grid-cols-1">
       {part.map((q) => {
         return (
-          <div className="flex flex-col md:mx-5  md:max-w-[30%] gap-6 w-full md:h-[260px] h-[unset]">
+          <div
+            key={q.title}
+            className="flex flex-col md:mx-5 gap-6 w-full md:max-h-[550px]"
+          >
             <h4 className="text-2xl text-typo font-normal md:mb-3 ">
               {q.title}
             </h4>

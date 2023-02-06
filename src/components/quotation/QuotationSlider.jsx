@@ -57,12 +57,12 @@ const quotationArray = [
 
 export default function QuotationSlider() {
   return (
-    <div className="container my-20 relative md:h-[350px] h-[unset]">
+    <div className="container my-20 relative md:max-h-[550px] max-h-[unset]">
       <Swiper
         modules={[Pagination]}
         pagination={{ clickable: true }}
-        autoplay={{ delay: 3000 }}
-        className="quotation-swiper h-full"
+        // autoplay={{ delay: 3000 }}
+        className="quotation-swiper h-full pb-20"
         spaceBetween={0}
         slidesPerView={1}
         onSlideChange={() => console.log("slide change")}

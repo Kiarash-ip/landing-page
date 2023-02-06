@@ -37,13 +37,16 @@ export default function Header() {
           Bringing interiors to life, understanding the person or people living
           in a home is far greater need in design
         </h3>
-        <div className="w-full max-w-[400px] border border-white rounded-full flex items-center py-1 pl-4 pr-2 bg-white bg-opacity-50">
+        <div className="w-full max-w-[400px] border border-white rounded-full flex items-center py-1 pl-4 pr-1 bg-white bg-opacity-50">
           <input
             type="text"
             className="reset-default placeholder:text-white text-left grow text-white"
             placeholder="Search Furniture"
           />
-          <img src="/images/button search.svg" className="w-[40px] h-[40px]" />
+          <img
+            src="/images/button search.svg"
+            className="w-[40px] h-[40px] cursor-pointer"
+          />
         </div>
       </div>
     </div>

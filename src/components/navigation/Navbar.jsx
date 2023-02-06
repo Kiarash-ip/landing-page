@@ -25,12 +25,18 @@ export default function Navbar() {
             open ? "max-h-[250px]" : "max-h-[0]"
           }`}
         >
-          <li className="md:text-white text-typo pt-3 md:p-[unset]">
+          <li className="md:text-white text-typo pt-3 md:p-[unset] cursor-pointer hover:opacity-50 transition-all transition-200">
             Furniture
           </li>
-          <li className="md:text-white text-typo">Shop</li>
-          <li className="md:text-white text-typo">About Us</li>
-          <li className="md:text-white text-typo pb-3 md:p-[unset]">Contact</li>
+          <li className="md:text-white text-typo cursor-pointer hover:opacity-50 transition-all transition-200">
+            Shop
+          </li>
+          <li className="md:text-white text-typo cursor-pointer hover:opacity-50 transition-all transition-200">
+            About Us
+          </li>
+          <li className="md:text-white text-typo pb-3 md:p-[unset] cursor-pointer hover:opacity-50 transition-all transition-200">
+            Contact
+          </li>
         </ul>
         <img src="/images/basket.svg" className="w-[30px] ml-[auto]" />
         <div

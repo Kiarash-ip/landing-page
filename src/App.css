@@ -45,10 +45,9 @@
 
 .quotation-swiper .swiper-pagination {
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
   z-index: 50;
   display: none;
-  background-color: #00000080;
 }
 
 
